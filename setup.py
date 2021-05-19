@@ -2,7 +2,7 @@ import os
 from setuptools import setup
 
 setup(
-    name = "The Slopes Launcher",
+    name = "TheSlopesLauncher",
     version = "0.02",
     author = "hydrostaticcog",
     author_email = "hydrostaticcog@gmail.com",
