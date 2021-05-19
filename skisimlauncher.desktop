@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=0.01
+Type=Application
+Name=Ski Sim Launcher
+Comment=Launches SkiResortSim
+Exec=skisimlauncher
+Categories=Games;
+Terminal=false
+StartupNotify=false
+StarwupWMClass=skisimlauncher
