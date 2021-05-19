@@ -7,6 +7,7 @@ import requests
 
 
 def run():
+    check_for_files()
     download_build()
     os.chdir(f"{os.path.expanduser('~')}/.local/share/the_slopes/builds")
     try:
@@ -57,5 +58,4 @@ def main():
     root.mainloop()
 
 if __name__ == '__main__':
-    check_for_files()
     main()
