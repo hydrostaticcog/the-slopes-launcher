@@ -5,8 +5,6 @@ import subprocess
 import json
 import requests
 
-with open('/home/hydrostaticcog/.sim1/release.json') as f:
-    release = json.load(f)
 
 def run():
     download_build()
@@ -37,8 +35,8 @@ def download_build():
 
 def main():
     root = Tk()
-    root.title('Ski Resort Simulator')
-    root.geometry('450x225')
+    root.title('The Slopes')
+    root.geometry('150x150')
 
     mainframe = ttk.Frame(root, padding=20)
     mainframe.grid(column=0, row=0, sticky=(N, S, E, W))
@@ -50,9 +48,7 @@ def main():
 
     ttk.Button(mainframe, text='Run', command=run).grid(column=3, row=5, sticky=N)
 
-    ttk.Label(mainframe, text="Run Ski Sim!").grid(column=3, row=4, sticky=N)
-    ttk.Label(mainframe, text=f"Game Version {release['gameVersion']} released on {release['gRDate']}").grid(column=3, row=8, sticky=N)
-    ttk.Label(mainframe, text=f"Launcher Version {release['launcherVersion']} released on {release['LRDate']}").grid(column=3, row=9, sticky=N)
+    ttk.Label(mainframe, text="Run The Slopes!").grid(column=3, row=4, sticky=N)
 
     for child in mainframe.winfo_children():
         child.grid_configure(padx=10, pady=10)
