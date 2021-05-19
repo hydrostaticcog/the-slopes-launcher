@@ -8,13 +8,13 @@ setup(
     author_email = "hydrostaticcog@gmail.com",
     description = "Launches The Slopes (ski resort simulator)",
     license = "AGPL-3.0",
-    url = "none yet",
-    packages=['skisimlauncher'],
+    url = "https://github.com/hydrostaticcog/the-slopes-launcher",
+    packages=['slopeslauncher'],
     entry_points = {
-        'console_scripts' : ['skisimlauncher = skisimlauncher.launcher:main']
+        'console_scripts' : ['slopeslauncher = slopeslauncher.launcher:main']
     },
     data_files = [
-        ('share/applications/', ['skisimlauncher.desktop'])
+        ('share/applications/', ['slopeslauncher.desktop'])
     ],
     classifiers=[
         "License :: AGPL-3.0 License",

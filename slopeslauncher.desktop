@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=0.02
+Type=Application
+Name=The Slopes Launcher
+Comment=Launches the Slopes
+Exec=slopeslauncher
+Categories=Games;
+Terminal=false
+StartupNotify=false
+StarwupWMClass=slopeslauncher
