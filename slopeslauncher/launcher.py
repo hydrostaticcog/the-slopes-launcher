@@ -1,10 +1,17 @@
+import subprocess
+
+try:
+    import tkinter
+except ModuleNotFoundError:
+    print('You need to install tkinter!')
+    subprocess.check_call(['sudo', 'apt', 'install', 'python3-tk'])
+
+
 from tkinter import *
 from tkinter import ttk
 import os
-import subprocess
 import json
 import requests
-
 
 def run():
     check_for_files()

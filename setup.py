@@ -20,6 +20,6 @@ setup(
         "License :: AGPL-3.0 License",
     ],
     install_requires=[
-        "tk"
+        "requests"
     ]
 )
